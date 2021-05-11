@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "H4m7lPCjLrl9ND4GJkpN4lnwAYxeP0KVaKTAeflrDxKcV5Fc6/858hsMM3584kzVTtDZ5CZavOWrKz7qmB3oQA==",
+  "dgSpecHash": "bWIHu1wjwgicwCbD9zxor25Vn+ceWsFVrdJnHV8mNsMIBULUy2Yg5xtgEf4CmgkTFow8HtqHR59sbHiCpvdDdQ==",
   "success": true,
-  "projectFilePath": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "c:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\josel\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
+    "C:\\Users\\josel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",
     "C:\\Users\\josel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\josel\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",
     "C:\\Users\\josel\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.1\\microsoft.aspnetcore.cryptography.keyderivation.5.0.1.nupkg.sha512",
