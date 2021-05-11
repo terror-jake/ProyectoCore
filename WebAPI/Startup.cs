@@ -28,6 +28,7 @@ using Microsoft.OpenApi.Models;
 using Persistencia;
 using Seguridad.Token;
 using WebAPI.Middleware;
+using AutoMapper;
 
 namespace WebAPI
 {
@@ -80,6 +81,7 @@ namespace WebAPI
             });
             services.AddScoped<IJwtGenerador, JwtGenerador>();
             services.AddScoped<IUsuarioSesion, UsuarioSesion>();
+            services.AddAutoMapper(typeof(Consulta.Manejador));
             
             // services.AddSwaggerGen(c =>
             // {
