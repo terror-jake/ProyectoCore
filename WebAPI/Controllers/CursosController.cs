@@ -4,6 +4,7 @@ using Aplicacion.Cursos;
 using Dominio;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace WebAPI.Controllers
 {
@@ -17,8 +18,8 @@ namespace WebAPI.Controllers
             return await Mediator.Send(new Consulta.ListaCursos());
         }
 
-        [HttpGet("{id}")] // http://localhost:5000/api/Cursos/1
-        public async Task<ActionResult<Curso>> Detalle(int id)
+        [HttpGet("{id}")] // http://localhost:5000/api/Cursos/Guid
+        public async Task<ActionResult<CursoDTO>> Detalle(Guid id)
         {
             return await Mediator.Send(new ConsultaId.CursoUnico{Id = id}  );
         }
