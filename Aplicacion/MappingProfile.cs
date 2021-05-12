@@ -1,3 +1,4 @@
+using System.Linq;
 using Aplicacion.Cursos;
 using AutoMapper;
 using Dominio;

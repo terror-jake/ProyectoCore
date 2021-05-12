@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bWIHu1wjwgicwCbD9zxor25Vn+ceWsFVrdJnHV8mNsMIBULUy2Yg5xtgEf4CmgkTFow8HtqHR59sbHiCpvdDdQ==",
+  "dgSpecHash": "0idPgIGqV9dKF+NXXvaATB55DW9aXdDKTrNuRpd35W6d02YfMNoIycyAT5F7kLD9hcTYDS0i2d8pb3tQq8MDmA==",
   "success": true,
-  "projectFilePath": "c:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josel\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
     "C:\\Users\\josel\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",

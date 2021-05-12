@@ -7,6 +7,7 @@ using MediatR;
 using Persistencia;
 using System;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
 
 namespace Aplicacion.Cursos
 {

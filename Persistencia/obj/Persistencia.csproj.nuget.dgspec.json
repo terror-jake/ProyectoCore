@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {}
+    "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {}
   },
   "projects": {
-    "c:\\ProyectoCore\\Dominio\\Dominio.csproj": {
+    "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "c:\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-        "outputPath": "c:\\ProyectoCore\\Dominio\\obj\\",
+        "outputPath": "C:\\ProyectoCore\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -72,14 +72,14 @@
         }
       }
     },
-    "c:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+    "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "c:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-        "outputPath": "c:\\ProyectoCore\\Persistencia\\obj\\",
+        "outputPath": "C:\\ProyectoCore\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -101,8 +101,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj"
               }
             }
           }

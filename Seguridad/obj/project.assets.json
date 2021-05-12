@@ -6170,11 +6170,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\ProyectoCore\\Seguridad\\Seguridad.csproj",
+      "projectUniqueName": "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj",
       "projectName": "Seguridad",
-      "projectPath": "c:\\ProyectoCore\\Seguridad\\Seguridad.csproj",
+      "projectPath": "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj",
       "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-      "outputPath": "c:\\ProyectoCore\\Seguridad\\obj\\",
+      "outputPath": "C:\\ProyectoCore\\Seguridad\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -6196,8 +6196,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "c:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+            "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
             }
           }
         }

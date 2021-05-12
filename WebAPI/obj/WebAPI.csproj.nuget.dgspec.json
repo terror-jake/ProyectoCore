@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\ProyectoCore\\WebAPI\\WebAPI.csproj": {}
+    "C:\\ProyectoCore\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "c:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "c:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-        "outputPath": "c:\\ProyectoCore\\Aplicacion\\obj\\",
+        "outputPath": "C:\\ProyectoCore\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -33,11 +33,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj"
               },
-              "c:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "c:\\ProyectoCore\\Persistencia\\Persistencia.csproj"
+              "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "c:\\ProyectoCore\\Dominio\\Dominio.csproj": {
+    "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "c:\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-        "outputPath": "c:\\ProyectoCore\\Dominio\\obj\\",
+        "outputPath": "C:\\ProyectoCore\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -151,14 +151,14 @@
         }
       }
     },
-    "c:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+    "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "c:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-        "outputPath": "c:\\ProyectoCore\\Persistencia\\obj\\",
+        "outputPath": "C:\\ProyectoCore\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -180,8 +180,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -235,14 +235,14 @@
         }
       }
     },
-    "c:\\ProyectoCore\\Seguridad\\Seguridad.csproj": {
+    "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\ProyectoCore\\Seguridad\\Seguridad.csproj",
+        "projectUniqueName": "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj",
         "projectName": "Seguridad",
-        "projectPath": "c:\\ProyectoCore\\Seguridad\\Seguridad.csproj",
+        "projectPath": "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj",
         "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-        "outputPath": "c:\\ProyectoCore\\Seguridad\\obj\\",
+        "outputPath": "C:\\ProyectoCore\\Seguridad\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -264,8 +264,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "c:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+              "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
               }
             }
           }
@@ -301,14 +301,14 @@
         }
       }
     },
-    "c:\\ProyectoCore\\WebAPI\\WebAPI.csproj": {
+    "C:\\ProyectoCore\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\ProyectoCore\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "c:\\ProyectoCore\\WebAPI\\WebAPI.csproj",
+        "projectPath": "C:\\ProyectoCore\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-        "outputPath": "c:\\ProyectoCore\\WebAPI\\obj\\",
+        "outputPath": "C:\\ProyectoCore\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -330,11 +330,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "c:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+              "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
               },
-              "c:\\ProyectoCore\\Seguridad\\Seguridad.csproj": {
-                "projectPath": "c:\\ProyectoCore\\Seguridad\\Seguridad.csproj"
+              "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj": {
+                "projectPath": "C:\\ProyectoCore\\Seguridad\\Seguridad.csproj"
               }
             }
           }
