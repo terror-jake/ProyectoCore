@@ -33,6 +33,20 @@ namespace Aplicacion.Cursos
                     context.CursoInstructor.Remove(instructor);
                 }
 
+                // quitar comentarios
+                var comentariosBD = context.Comentario.Where( x => x.CursoId == request.Id);
+                foreach (var cmt in comentariosBD)
+                {
+                    context.Comentario.Remove(cmt);
+                }
+
+                // quitar precio
+                var precioBD = context.Precio.Where( x => x.CursoId == request.Id).FirstOrDefault();
+                if(precioBD != null)
+                {
+                    context.Precio.Remove(precioBD);
+                }
+
                 var curso = await context.Curso.FindAsync(request.Id);
 
                 if(curso == null)

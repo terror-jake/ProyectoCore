@@ -19,6 +19,8 @@ namespace Aplicacion.Cursos
 
             // Crear una prop que represente un arreglo de Guid de Instructor
             public List<Guid> ListaInstructor { get; set; }
+            public decimal Precio { get; set; }
+            public decimal Promocion { get; set; }
 
         }
 
@@ -72,6 +74,17 @@ namespace Aplicacion.Cursos
 
                     }
                 }
+
+                // inserción de precio
+                var precioEntidad = new Precio
+                {
+                    CursoId = _cursoId,
+                    PrecioActual = request.Precio,
+                    Promocion = request.Promocion,
+                    PrecioId = Guid.NewGuid()
+                };
+
+                context.Precio.Add(precioEntidad);
 
                 // valor = 0, error. valor = 1, se realizó una transacción, valor = 2, dos transacciones
                 var valor = await context.SaveChangesAsync();

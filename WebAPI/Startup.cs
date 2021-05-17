@@ -29,6 +29,7 @@ using Persistencia;
 using Seguridad.Token;
 using WebAPI.Middleware;
 using AutoMapper;
+using Persistencia.DapperConexion;
 
 namespace WebAPI
 {
@@ -47,6 +48,9 @@ namespace WebAPI
             services.AddDbContext<CursosOnlineContext>(opt => {
                 opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            services.Configure<ConexionConfiguracion>(Configuration.GetSection("DefaultConnection"));
+
             services.AddMediatR(typeof(Consulta.Manejador).Assembly);
             // services.AddControllers(opt => {
             //     var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
