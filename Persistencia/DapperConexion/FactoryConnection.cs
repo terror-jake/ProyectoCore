@@ -9,9 +9,9 @@ namespace Persistencia.DapperConexion
         private IDbConnection connection;
         private readonly IOptions<ConexionConfiguracion> configs;
 
-        public FactoryConnection(IDbConnection _connection)
+        public FactoryConnection(IOptions<ConexionConfiguracion> _configs)
         {
-            connection = _connection;
+            configs = _configs;
         }
 
         public void CloseConnection()
@@ -26,7 +26,7 @@ namespace Persistencia.DapperConexion
         {
             if(connection == null)
             {
-                connection = new SqlConnection(configs.Value.ConexionSQL);
+                connection = new SqlConnection(configs.Value.DefaultConnection);
             }
 
             if(connection.State != ConnectionState.Open)

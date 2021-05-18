@@ -49,7 +49,8 @@ namespace WebAPI
                 opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
-            services.Configure<ConexionConfiguracion>(Configuration.GetSection("DefaultConnection"));
+            services.AddOptions();
+            services.Configure<ConexionConfiguracion>(Configuration.GetSection("ConnectionStrings"));
 
             services.AddMediatR(typeof(Consulta.Manejador).Assembly);
             // services.AddControllers(opt => {
@@ -86,6 +87,10 @@ namespace WebAPI
             services.AddScoped<IJwtGenerador, JwtGenerador>();
             services.AddScoped<IUsuarioSesion, UsuarioSesion>();
             services.AddAutoMapper(typeof(Consulta.Manejador));
+
+
+            services.AddTransient<IFactoryConnection, FactoryConnection>();
+            services.AddScoped<IInstructor, InstructorRepositorio>();
             
             // services.AddSwaggerGen(c =>
             // {
