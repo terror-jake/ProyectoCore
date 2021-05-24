@@ -4,52 +4,72 @@ using System;
 
 namespace Persistencia.DapperConexion.Instructor
 {
-        public class InstructorRepositorio : IInstructor
+    public class InstructorRepositorio : IInstructor
+    {
+        private readonly IFactoryConnection factoryConnection;
+
+        public InstructorRepositorio(IFactoryConnection _factoryConnection)
         {
-            private readonly IFactoryConnection factoryConnection;
+            factoryConnection = _factoryConnection;
+        }
 
-            public InstructorRepositorio(IFactoryConnection _factoryConnection)
+        public async Task<IEnumerable<InstructorModel>> ObtenerLista()
+        {
+            IEnumerable<InstructorModel> instructorList = null;
+            var storedProcedure = "usp_Obtener_Instructores";
+            try
             {
-                factoryConnection = _factoryConnection;
+                var connection = factoryConnection.GetConnection();
+
+                // puede ser sp pero también query
+                instructorList = await connection.QueryAsync<InstructorModel>(storedProcedure, null, commandType: CommandType.StoredProcedure);
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Error en la consulta de datos: ", e);
+            }
+            finally
+            {
+                factoryConnection.CloseConnection();
             }
 
-            public async Task<IEnumerable<InstructorModel>> ObtenerLista()
+            return instructorList;
+        }
+        public Task<InstructorModel> ObtenerPorId(Guid id)
+        {
+            throw new NotImplementedException();
+        }
+        public async Task<int> Nuevo(InstructorModel parametros)
+        {
+            var storedProcedure = "usp_instructor_nuevo";
+            var resultado = null;
+            try
             {
-                IEnumerable<InstructorModel> instructorList = null;
-                var storedProcedure = "usp_Obtener_Instructores";
-                try
+                var connection = factoryConnection.GetConnection();
+                resultado = await connection.ExecuteAsync(storedProcedure, new
                 {
-                    var connection = factoryConnection.GetConnection();
+                    InstructorId = Guid.NewGuid(),
+                    Nombre = parametros.Nombre,
+                    Apellidos = parametros.Apellidos,
+                    Titulo = parametros.Titulo
+                },
+                    CommandType: CommandType.StoredProcedure);
 
-                    // puede ser sp pero también query
-                    instructorList = await connection.QueryAsync<InstructorModel>(storedProcedure, null, commandType: CommandType.StoredProcedure);
-                }
-                catch (Exception e)
-                {
-                    throw new Exception("Error en la consulta de datos: ", e);
-                }
-                finally
-                {
-                    factoryConnection.CloseConnection();
-                }
-
-                return instructorList;
+                factoryConnection.CloseConnection();
+                return resultado;
             }
-            public Task<InstructorModel> ObtenerPorId(Guid id)
+            catch (Exception e)
             {
-                throw new NotImplementedException();
-            }
-            public Task<int> Nuevo(InstructorModel parametros)
-            {
-                throw new NotImplementedException();
-            }
-            public Task<int> Actualiza(InstructorModel parametros)
-            {
-                throw new NotImplementedException();
-            }
-            public Task<int> Eliminar(Guid id)
-            {
-                throw new NotImplementedException();
+                throw new Exception("No se pudo guardar el nuevo instructor", e);
             }
         }
+        public Task<int> Actualiza(InstructorModel parametros)
+        {
+            throw new NotImplementedException();
+        }
+        public Task<int> Eliminar(Guid id)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
