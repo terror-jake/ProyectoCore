@@ -37,14 +37,18 @@ namespace Aplicacion.Instructores
 
             public async Task<Unit> Handle(Ejecuta request, CancellationToken cancellationToken)
             {
-                var resultado = await instructorRepositorio.Nuevo(request.Nombre, request.Apellidos, request.Titulo);
-                
-                if(resultado > 0)
+                try
                 {
+                    var resultado = await instructorRepositorio.Nuevo(request.Nombre, request.Apellidos, request.Titulo);
                     return Unit.Value;
-                }
 
-                throw new Exception("No se pudo insertar al instructor");
+                }
+                catch (Exception e)
+                {
+                    throw new Exception("No se pudo insertar al instructor" + e.ToString());
+                }
+                
+
             }
         }
 

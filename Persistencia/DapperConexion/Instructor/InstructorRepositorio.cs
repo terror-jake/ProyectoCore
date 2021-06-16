@@ -28,7 +28,7 @@ namespace Persistencia.DapperConexion.Instructor
             }
             catch (Exception e)
             {
-                throw new Exception("Error en la consulta de datos: ", e);
+                throw new Exception("Error en la consulta de datos: " + e.ToString());
             }
             finally
             {
@@ -61,7 +61,7 @@ namespace Persistencia.DapperConexion.Instructor
             }
             catch (Exception e)
             {
-                throw new Exception("No se pudo guardar el nuevo instructor", e);
+                throw new Exception("No se pudo guardar el nuevo instructor " + e.ToString());
             }
             finally
             {

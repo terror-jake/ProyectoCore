@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Seguridad\\Seguridad.csproj": {}
+    "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Seguridad\\Seguridad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
-        "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Aplicacion\\obj\\",
+        "projectPath": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\jlalvarez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\josel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jlalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +31,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Dominio\\Dominio.csproj"
               },
-              "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -74,21 +77,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\jlalvarez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\josel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jlalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -137,21 +143,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\jlalvarez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\josel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jlalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -165,8 +174,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -220,21 +229,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Seguridad\\Seguridad.csproj": {
+    "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Seguridad\\Seguridad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Seguridad\\Seguridad.csproj",
+        "projectUniqueName": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Seguridad\\Seguridad.csproj",
         "projectName": "Seguridad",
-        "projectPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Seguridad\\Seguridad.csproj",
-        "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Seguridad\\obj\\",
+        "projectPath": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Seguridad\\Seguridad.csproj",
+        "packagesPath": "C:\\Users\\jlalvarez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Seguridad\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\josel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jlalvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -248,8 +260,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
+              "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "C:\\Users\\jlalvarez\\Documents\\VsCodeProjects\\ProyectoCore\\Aplicacion\\Aplicacion.csproj"
               }
             }
           }
@@ -281,7 +293,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
