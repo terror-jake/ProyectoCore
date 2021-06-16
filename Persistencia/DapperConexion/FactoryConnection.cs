@@ -1,5 +1,6 @@
 using Microsoft.Extensions.Options;
 using Microsoft.Data.SqlClient;
+using System.Data;
 
 namespace Persistencia.DapperConexion
 {

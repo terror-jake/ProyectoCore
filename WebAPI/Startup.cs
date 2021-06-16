@@ -30,6 +30,7 @@ using Seguridad.Token;
 using WebAPI.Middleware;
 using AutoMapper;
 using Persistencia.DapperConexion;
+using Persistencia.DapperConexion.Instructor;
 
 namespace WebAPI
 {

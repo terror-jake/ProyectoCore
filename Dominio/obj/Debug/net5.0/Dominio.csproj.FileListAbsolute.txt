@@ -10,3 +10,15 @@ C:\ProyectoCore\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
 C:\ProyectoCore\Dominio\obj\Debug\net5.0\Dominio.dll
 C:\ProyectoCore\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 C:\ProyectoCore\Dominio\obj\Debug\net5.0\Dominio.pdb
+C:\Users\josel\Documents\VSCode\ProyectoCore\Dominio\bin\Debug\net5.0\Dominio.deps.json
+C:\Users\josel\Documents\VSCode\ProyectoCore\Dominio\bin\Debug\net5.0\Dominio.dll
+C:\Users\josel\Documents\VSCode\ProyectoCore\Dominio\bin\Debug\net5.0\ref\Dominio.dll
+C:\Users\josel\Documents\VSCode\ProyectoCore\Dominio\bin\Debug\net5.0\Dominio.pdb
+C:\Users\josel\Documents\VSCode\ProyectoCore\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\josel\Documents\VSCode\ProyectoCore\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josel\Documents\VSCode\ProyectoCore\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\josel\Documents\VSCode\ProyectoCore\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
+C:\Users\josel\Documents\VSCode\ProyectoCore\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\josel\Documents\VSCode\ProyectoCore\Dominio\obj\Debug\net5.0\Dominio.dll
+C:\Users\josel\Documents\VSCode\ProyectoCore\Dominio\obj\Debug\net5.0\ref\Dominio.dll
+C:\Users\josel\Documents\VSCode\ProyectoCore\Dominio\obj\Debug\net5.0\Dominio.pdb

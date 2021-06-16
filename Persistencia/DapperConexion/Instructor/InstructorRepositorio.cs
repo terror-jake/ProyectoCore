@@ -1,6 +1,8 @@
 using Dapper;
 using System.Data;
 using System;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace Persistencia.DapperConexion.Instructor
 {
@@ -39,21 +41,20 @@ namespace Persistencia.DapperConexion.Instructor
         {
             throw new NotImplementedException();
         }
-        public async Task<int> Nuevo(InstructorModel parametros)
+        public async Task<int> Nuevo(string nombre, string apellidos, string titulo)
         {
             var storedProcedure = "usp_instructor_nuevo";
-            var resultado = null;
             try
             {
                 var connection = factoryConnection.GetConnection();
-                resultado = await connection.ExecuteAsync(storedProcedure, new
+                var resultado = await connection.ExecuteAsync(storedProcedure, new
                 {
                     InstructorId = Guid.NewGuid(),
-                    Nombre = parametros.Nombre,
-                    Apellidos = parametros.Apellidos,
-                    Titulo = parametros.Titulo
-                },
-                    CommandType: CommandType.StoredProcedure);
+                    Nombre = nombre,
+                    Apellidos = apellidos,
+                    Titulo = titulo
+                }, commandType: CommandType.StoredProcedure
+                ); 
 
                 factoryConnection.CloseConnection();
                 return resultado;
@@ -61,6 +62,10 @@ namespace Persistencia.DapperConexion.Instructor
             catch (Exception e)
             {
                 throw new Exception("No se pudo guardar el nuevo instructor", e);
+            }
+            finally
+            {
+                factoryConnection.CloseConnection();
             }
         }
         public Task<int> Actualiza(InstructorModel parametros)

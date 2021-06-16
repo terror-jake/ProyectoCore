@@ -27,7 +27,7 @@ namespace Aplicacion.Cursos
             {
                 var cursos = await context.Curso
                     .Include(x => x.ComentarioLista)
-                    .Include(x => x.Precio)
+                    .Include(x => x.PrecioPromocion)
                     .Include(x => x.InstructoresLink)
                     .ThenInclude(x => x.Instructor)
                     .ToListAsync();

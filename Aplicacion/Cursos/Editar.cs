@@ -73,7 +73,7 @@ namespace Aplicacion.Cursos
                     {
                         PrecioId = Guid.NewGuid(),
                         PrecioActual = request.Precio ?? 0,
-                        Promoion = request.Promocion ?? 0,
+                        Promocion = request.Promocion ?? 0,
                         CursoId = request.CursoId
                     };
 

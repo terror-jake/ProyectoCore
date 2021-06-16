@@ -6,6 +6,8 @@ using Aplicacion.Instructores;
 
 namespace WebAPI.Controllers
 {
+    [ApiController]
+    [Route("api/[controller]")]
     public class InstructoresController : MiControllerBase
     {
         [HttpGet]

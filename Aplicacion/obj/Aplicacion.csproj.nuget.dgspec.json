@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {}
+    "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {}
   },
   "projects": {
-    "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCore\\Aplicacion\\obj\\",
+        "outputPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\josel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -33,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\Dominio.csproj"
               },
-              "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -79,27 +74,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCore\\Dominio\\obj\\",
+        "outputPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\josel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -147,27 +137,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCore\\Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\josel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -180,8 +165,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\josel\\Documents\\VSCode\\ProyectoCore\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -199,6 +184,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[6.1.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -231,7 +220,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

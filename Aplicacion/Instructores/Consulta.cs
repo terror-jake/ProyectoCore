@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using Persistencia.DapperConexion.Instructor;
 using MediatR;
+using System.Threading.Tasks;
+using System.Linq;
+using System.Threading;
 
 namespace Aplicacion.Instructores
 {
