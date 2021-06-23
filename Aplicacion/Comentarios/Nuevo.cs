@@ -47,7 +47,8 @@ namespace Aplicacion.Comentarios
                     Alumno = request.Alumno,
                     ComentarioText = request.Comentario,
                     CursoId = request.CursoId,
-                    Puntaje = request.Puntaje
+                    Puntaje = request.Puntaje,
+                    FechaCreacion = DateTime.UtcNow
                 };
 
                 context.Comentario.Add(comentario);
