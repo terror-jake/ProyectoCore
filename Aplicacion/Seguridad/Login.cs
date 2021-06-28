@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
@@ -54,12 +55,15 @@ namespace Aplicacion.Seguridad
                 // false corresponde a si la cuenta debe bloquearse
                 var resultado = await signInManager.CheckPasswordSignInAsync(usuario, request.Password, false);
 
+                var resultadoRoles = await userManager.GetRolesAsync(usuario);
+                var listaRoles = new List<string>(resultadoRoles); // debe ser List
+                
                 if(resultado.Succeeded)
                 {
                     return new UsuarioData
                     {
                         NombreCompleto = usuario.NombreCompleto,
-                        Token = jwtGenerador.CrearToken(usuario),
+                        Token = jwtGenerador.CrearToken(usuario, listaRoles),
                         Username = usuario.UserName,
                         Email = usuario.Email,
                         Image = null

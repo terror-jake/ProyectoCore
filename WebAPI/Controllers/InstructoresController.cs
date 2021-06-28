@@ -5,6 +5,7 @@ using Persistencia.DapperConexion.Instructor;
 using Aplicacion.Instructores;
 using MediatR;
 using System;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebAPI.Controllers
 {
@@ -13,6 +14,7 @@ namespace WebAPI.Controllers
     public class InstructoresController : MiControllerBase
     {
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<List<InstructorModel>>> ObtenerInstructores()
         {
             return await Mediator.Send(new Consulta.Lista());
